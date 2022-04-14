@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { SearchResults } from "../components/index";
 
 export default function Search({ results }) {
-    const router = useRouter();
+  const router = useRouter();
   console.log(results);
   return (
     <div>
@@ -22,7 +22,7 @@ export default function Search({ results }) {
 }
 
 export async function getServerSideProps(context) {
-  const useDummyData = false;
+  const useDummyData = true;
   const startIndex = context.query.start || "0";
 
   const data = useDummyData

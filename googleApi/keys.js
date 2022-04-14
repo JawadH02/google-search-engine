@@ -1,3 +1,3 @@
-export const API_KEY = "AIzaSyBKA5fBIqZ3AmqntTUihYeSWNhgMv5wQN8";
+export const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
 
-export const CONTEXT_KEY = "5e47b62bfef8fc1a9";
+export const CONTEXT_KEY = process.env.NEXT_PUBLIC_CONTEXT_KEY;
