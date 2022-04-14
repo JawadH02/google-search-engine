@@ -21,7 +21,7 @@ export const Landing = () => {
       <figure>
         <Image src={googleLogo} height={200} width={300} alt="google image" />
       </figure>
-      <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border-gray-200 px-5 py-3 sm:max-w-xl lg:max-w-2xl">
+      <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
         <SearchIcon className="h-5 mr-3 text-gray-500" />
         <input ref={searchInputRef} className="focus:outline-none flex-grow" type="text" />
         <MicrophoneIcon className="h-5" />
